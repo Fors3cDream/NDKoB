@@ -1,6 +1,6 @@
-Just add xor encryption strings. but compiled android so file, RegisterNative method failed.
+<font color="#000fff"> Just add xor encryption strings. but compiled android so file, RegisterNative method failed. </font>
 
-General Options
+### General Options
 
 -fdiversify - Enable diversity. This is a shortcut for -Xclang -nop-insertion and -mllvm -sched-randomize.
 
@@ -14,7 +14,7 @@ General Options
 
 -mllvm -xse - XOR string encryption pass (CRASHES COMPILER, DO NOT USE!)
 
-NOP Insertion
+### NOP Insertion
 
 -Xclang -nop-insertion - Enable the NOP insertion pass.
 
