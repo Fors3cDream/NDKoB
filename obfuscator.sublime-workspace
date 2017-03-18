@@ -1,0 +1,544 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"numeric_val"
+			],
+			[
+				"Func",
+				"Function_Argument_Names"
+			],
+			[
+				"Num",
+				"Numeric_Val"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/Transforms/Obfuscation/StringEncrypt.cpp",
+			"settings":
+			{
+				"buffer_size": 8360,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/llvm/Transforms/Obfuscation/StringEncryption.h",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Transforms/Obfuscation/XorStringEncryption.cpp",
+			"settings":
+			{
+				"buffer_size": 3012,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/llvm/Transforms/Obfuscation/XorStringEncryption.h",
+			"settings":
+			{
+				"buffer_size": 1227,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Transforms/Obfuscation/CMakeLists.txt",
+			"settings":
+			{
+				"buffer_size": 245,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Transforms/IPO/PassManagerBuilder.cpp",
+			"settings":
+			{
+				"buffer_size": 23390,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "include/llvm/Transforms/Obfuscation/Flattening.h",
+			"settings":
+			{
+				"buffer_size": 1084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/Transforms/Obfuscation/Flattening.cpp",
+			"settings":
+			{
+				"buffer_size": 7354,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pci",
+		"selected_items":
+		[
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/IPO",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation"
+	],
+	"file_history":
+	[
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/Substitution.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/StringEncryption.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/XorStringEncryption.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/StringEncrypt.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/XorStringEncryption.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/IPO/PassManagerBuilder.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/Split.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/SplitBasicBlocks.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/BasicBlock.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/Flattening.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/BogusControlFlow.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/BogusControlFlow.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/InstrTypes.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/Function.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/Utils.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/GlobalValue.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/Substitution.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/CryptoUtils.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/CryptoUtils.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/IRBuilder.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/Obfuscation/Utils.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/IR/ConstantFolder.h",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/IPO/CMakeLists.txt",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/IPO/LLVMBuild.txt",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Transforms/IPO/PassManagerBuilder.h",
+		"/Users/killer/WorkSpace/codes/加密算法-C++/AES/AES-128-extend.c",
+		"/Users/killer/WorkSpace/codes/加密算法-C++/AES/AES-128-extend.cpp",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/CMakeLists.txt",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/LLVMBuild.txt",
+		"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation/Makefile",
+		"/Users/killer/WorkSpace/codes/obfuscator/include/llvm/Analysis/AliasAnalysis.h",
+		"/Users/killer/WorkSpace/codes/JniTest/app/src/main/AndroidManifest.xml",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/x86-clang3.6.1-obfuscator/setup.mk",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/x86_64-clang3.6.1-obfuscator/setup.mk",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/mips64el-linux-android-clang3.6.1-obfuscator/setup.mk",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/mipsel-linux-android-clang3.6.1-obfuscator/setup.mk",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/arm-linux-androideabi-clang3.6.1-obfuscator/setup.mk",
+		"/Users/killer/AndTool/ndk/build/core/toolchains/aarch64-linux-android-clang3.6.1-obfuscator/setup.mk"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/killer/WorkSpace/codes/obfuscator/lib/Transforms/Obfuscation"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"AbstractStringEncryptionPass",
+			"AbstractStringEncryptionPAss",
+			"PMP.add(Create",
+			"flag",
+			"seeded",
+			"aesSeed",
+			"fixStack",
+			"Result R",
+			"PassManagerBuilder::populateModulePassManager(",
+			"NUMBER_ADD_SUBST",
+			"expression_parser("
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"StringEncrypt"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/Transforms/Obfuscation/StringEncrypt.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "include/llvm/Transforms/Obfuscation/StringEncryption.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/Transforms/Obfuscation/XorStringEncryption.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2943,
+								2943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "include/llvm/Transforms/Obfuscation/XorStringEncryption.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/Transforms/Obfuscation/CMakeLists.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/Transforms/IPO/PassManagerBuilder.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7049,
+								7049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "include/llvm/Transforms/Obfuscation/Flattening.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1044,
+								1044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/Transforms/Obfuscation/Flattening.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1407,
+								1407
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 335.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "obfuscator.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
