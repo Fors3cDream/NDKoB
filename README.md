@@ -12,7 +12,9 @@
 
 -mllvm -bcf - Bogus control flow pass
 
--mllvm -xse - XOR string encryption pass (CRASHES COMPILER, DO NOT USE!)
+-mllvm -xSe - XOR string encryption Function pass (some function cannot compiler success)
+
+-mllvm -gxse - XOR string encryption moudle pass (CRASHES COMPILER, DO NOT USE!)
 
 ### NOP Insertion
 
