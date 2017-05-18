@@ -29,3 +29,12 @@ Schedule randomization
 -mllvm -sched-randomize - Enable schedule randomization.
 
 -mllvm -sched-randomize-percentage=X - Randomize X% of the instruction schedule (default 50%).
+
+
+For example, if you have ten functions, but you only want the function int foo() to be obfuscated, you can declare it like that:
+
+int foo() __attribute((__annotate__(("fla"))));
+int foo() {
+   return 2;
+}
+You can add use one or more annotations for each function. You can also use the "reverse flag" if you want to disable an obfuscation on a function (for e.g. if you want to disable the Bogus Control Flow on a function, use the annotation "nobcf").
